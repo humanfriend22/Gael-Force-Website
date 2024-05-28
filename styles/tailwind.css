@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-background-color: hsl(0,0%,5%);
+    --primary-text-color: hsl(0,0%,88%);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--primary-background-color);
+    scroll-behavior: smooth;
+}
+
+
+.text-primary {
+    @apply text-[var(--primary-text-color)];
+}
+
+.bg-primary {
+    @apply bg-[var(--primary-background-color)];
+}
+
+.glass-container {
+    @apply bg-gradient-to-b from-neutral-700/50 to-neutral-950/50 p-3 ring-1 ring-[#e17575]/50
+}
+
+.glass-container-hover:hover {
+    @apply p-1 ring-2 ring-blue-950
+}
+
+.outlinedText {
+    @apply drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+}
