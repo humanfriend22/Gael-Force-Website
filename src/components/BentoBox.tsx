@@ -2,7 +2,6 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { twMerge } from "tailwind-merge"
 import Image from "next/image";
 import Link from "next/link";
-import {Product} from "../../typings";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const bentoBox = cva(["w-full", "relative", "glass-container", "glass-container-hover", "rounded-lg", "md:rounded-xl", "transition-all", "duration-300", "overflow-hidden", "group", "text-primary"], {
