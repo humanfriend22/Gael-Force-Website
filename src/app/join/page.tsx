@@ -15,18 +15,18 @@ import EmojiScene from "@/components/EmojiCanvas";
 
 export default function Web() {
   return (
-    <div className="mx-10">
-      <section className="relative">
-        <div className="mx-auto flex max-w-screen-xl py-16 pt-48 px-5">
-          <div className="w-1/2 flex flex-col">
-            <h1 className="mb-6 max-w-5xl text-2xl font-semibold leading-none tracking-tight text-primary sm:text-3xl lg:text-4xl xl:text-6xl text-balance">
+    <div className="mx-10 gap-16 flex flex-col pt-24 lg:pt-0">
+      <section className="relative h-screen flex flex-col px-5">
+        <div className="mx-auto flex max-w-screen-xl h-full items-center justify-center">
+          <div className="lg:w-1/2 w-full flex flex-col">
+            <h1 className="mb-6 max-w-5xl font-semibold leading-none tracking-tight text-primary text-5xl sm:text-7xl md:text-8xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-balance">
               Join us for
               <div> </div>
               <span className="from-[#DB4A4A] via-[#8FB5E7] to-white bg-clip-text text-transparent bg-gradient-to-r">
                 Life-Changing Experiences
               </span>
             </h1>
-            <p className="mb-6 max-w-2xl font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl text-balance">
+            <p className="mb-6 max-w-2xl font-light text-gray-400 text-sm sm:text-lg md:text-lg lg:mb-8 lg:text-lg xl:text-xl 2xl:text-2xl text-balance">
               We are always looking for new members to join our teams. If you are interested in robotics,
               engineering, or just want to learn more about the field, we would love to have you on board.
             </p>
@@ -34,11 +34,18 @@ export default function Web() {
             {/*  Contact me at <span className="font-bold">somwonglukas@gmail.com</span>*/}
             {/*</p>*/}
           </div>
-          <div className="w-1/2 flex items-center justify-center pl-5">
+          <div className="lg:flex hidden w-1/2 items-center justify-center pl-5">
             <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} className="" tiltAngleXInitial={10} tiltAngleYInitial={-5}>
-              <Image className="rounded-lg ring-4 ring-gray-700" src="/steamworlds.jpg" alt="GFR officers laughing" width={800} height={800} />
+              <Image className="rounded-lg ring-4 ring-gray-700 hidden 2xl:block" src="/steamworlds.jpg" alt="GFR officers laughing" width={550} height={550} />
+              <Image className="rounded-lg ring-4 ring-gray-700 hidden xl:block 2xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={450} height={450} />
+              <Image className="rounded-lg ring-4 ring-gray-700 lg:block xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={350} height={350} />
             </Tilt>
           </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} tiltAngleXInitial={10} tiltAngleYInitial={-5}>
+            <Image className="rounded-lg ring-4 ring-gray-700 block lg:hidden" src="/steamworlds.jpg" alt="GFR at 2023 worlds" width={600} height={600} />
+          </Tilt>
         </div>
         <EmojiScene />
       </section>

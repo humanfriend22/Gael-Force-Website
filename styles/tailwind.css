@@ -28,7 +28,7 @@ html, body {
 }
 
 .glass-container {
-    @apply bg-gradient-to-b from-neutral-700/50 to-neutral-950/50 p-3 ring-1 ring-[#e17575]/50
+    @apply bg-neutral-900 p-1 ring-[#e17575]/50 shadow-lg shadow-black
 }
 
 .glass-container-hover:hover {

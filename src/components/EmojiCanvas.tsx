@@ -18,8 +18,14 @@ const EmojiScene = () => {
         const onResize = () => {
             if (!containerRef.current || !canvasRef.current) return;
 
-            width = containerRef.current.offsetWidth;
-            height = containerRef.current.offsetHeight;
+            // width = containerRef.current.offsetWidth;
+            // height = containerRef.current.offsetHeight;
+
+            //instead make the width and height mased on screen width and height
+
+            width = window.innerWidth;
+            height = window.innerHeight;
+
 
             canvasRef.current.style.width = `${width}px`;
             canvasRef.current.style.height = `${height}px`;
