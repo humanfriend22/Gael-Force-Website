@@ -89,7 +89,6 @@ export default function Web() {
                 date="August 30, 2024"
                 image="/showcase2024.jpg"
                 size="onexy"
-                link="/fallshowcase"
               />
               <BentoBox
                 title="GirlPowered Workshop"
@@ -97,7 +96,6 @@ export default function Web() {
                 date="Oct 11-12, 2024"
                 image="/girlpowered2024.jpg"
                 size="onexy"
-                link="/girlpowered"
               />
               <BentoBox
                 title="Battle of The Bay"
@@ -105,7 +103,6 @@ export default function Web() {
                 date="Jan 19, 2025"
                 image="/botb2024.jpg"
                 size="twoxy"
-                link="/botb"
               />
               <BentoBox
                 title="All-Inclusive Workshop"
@@ -113,7 +110,6 @@ export default function Web() {
                 date="Nov 11-12, 2024"
                 image="/showcase2024.jpg"
                 size="onexy"
-                link="/allinclusiveworkshop"
               />
               <BentoBox
                 title="Battle of The Bay Skills"
@@ -121,7 +117,6 @@ export default function Web() {
                 date={"Feb 22, 2025"}
                 image="/atikshsize.jpg"
                 size="onexy"
-                link="/botbskills"
               />
             </div>
           </div>

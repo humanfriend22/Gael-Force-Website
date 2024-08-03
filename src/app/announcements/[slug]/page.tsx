@@ -65,7 +65,7 @@ const Page = async ({ params }: any) => {
             {/*    </p>*/}
             {/*  </div>*/}
             {/*</div>*/}
-            <h1 className='text-6xl font-bold leading-tight text-pretty'>{meta.title}</h1>
+            <h1 className='md:text-6xl sm:text-4xl text-3xl font-bold leading-tight text-pretty'>{meta.title}</h1>
             <p className='text-xl mt-5 text-gray-400'>{meta.description}</p>
             {meta.author && <p className='text-sm mt-5'>{meta.author}</p>}
             {meta.date && <time className='text-sm text-gray-400 mt-1'>{meta.date}</time>}

@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge"
 import Image from "next/image";
 import Link from "next/link";
 
-const footer = cva(["flex", "lg:h-40", "h-96", "w-full", "mx-auto", "max-w-screen-xl", "flex", "sm:gap-52", "gap-10", "flex-col", "sm:flex-row", "mt-20", "xl:mx-auto mx-8", "xl:px-0", "px-7", "mb-10", "bg-[var(--primary-background-color)]"], {
+const footer = cva(["flex", "md:h-40", "h-[500px]", "w-full", "mx-auto", "max-w-screen-xl", "flex", "lg:gap-52", "gap-24", "flex-col", "md:flex-row", "mt-20", "xl:mx-auto", "mx-8", "px-7", "mb-10", "bg-[var(--primary-background-color)]"], {
   variants: {
     intent: {
       primary: ["text-primary"],
@@ -28,13 +28,18 @@ export function Footer({ intent, className }: FooterProps) {
       </a>
       <h1 className="font-light">© 2024. All Rights Reserved.</h1>
     </div>
-    <div className="flex lg:flex-row flex-col gap-8 mt-5 [&>*]:font-medium [&>*]:h-min [&>*]:transition-colors [&>*]:duration-500">
-      <Link href="/#events" className="hover:text-[#DB4A4A]">Events</Link>
-      <Link href="/announcements" className="hover:text-[#DB4A4A]">Blog</Link>
-      <Link href="/#about" className="hover:text-[#DB4A4A]">About Us</Link>
-      <Link href="/teams" className="hover:text-[#DB4A4A]">Teams</Link>
-      <Link href="/join" className="hover:text-[#DB4A4A]">Join Us</Link>
-      <Link href="/timeline" className="hover:text-[#DB4A4A]">Timeline</Link>
+    <div className="flex xl:flex-row sm:flex-col flex-row gap-8 sm:mt-0 mt-5 [&>*]:font-medium [&>*]:h-min [&>*]:transition-colors [&>*]:duration-500">
+      <div className="flex sm:flex-row flex-col gap-8">
+        <Link href="/#events" className="hover:text-[#DB4A4A]">Events</Link>
+        <Link href="/announcements" className="hover:text-[#DB4A4A]">Blog</Link>
+        <Link href="/#about" className="hover:text-[#DB4A4A]">About Us</Link>
+        <Link href="/teams" className="hover:text-[#DB4A4A]">Teams</Link>
+      </div>
+      <div className="flex sm:flex-row flex-col gap-8">
+        <Link href="/join" className="hover:text-[#DB4A4A]">Join Us</Link>
+        <Link href="/officers" className="hover:text-[#DB4A4A]">Officers</Link>
+        <Link href="/timeline/awards" className="hover:text-[#DB4A4A]">Awards</Link>
+      </div>
     </div>
   </div>
 }

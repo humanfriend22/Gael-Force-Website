@@ -37,15 +37,15 @@ export default function Web() {
           </div>
           <div className="lg:flex hidden w-1/2 items-center justify-center pl-5">
             <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} className="" tiltAngleXInitial={10} tiltAngleYInitial={-5}>
-              <Image className="rounded-lg ring-4 ring-gray-700 hidden 2xl:block" src="/steamworlds.jpg" alt="GFR officers laughing" width={550} height={550} priority/>
-              <Image className="rounded-lg ring-4 ring-gray-700 hidden xl:block 2xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={450} height={450} priority/>
-              <Image className="rounded-lg ring-4 ring-gray-700 lg:block xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={350} height={350} priority/>
+              <Image className="rounded-lg ring-4 ring-gray-700 hidden 2xl:block" src="/steambooth.jpg" alt="Team Photo" width={500} height={500} priority/>
+              <Image className="rounded-lg ring-4 ring-gray-700 hidden xl:block 2xl:hidden" src="/steambooth.jpg" alt="Team Photo" width={425} height={425} priority/>
+              <Image className="rounded-lg ring-4 ring-gray-700 lg:block xl:hidden" src="/steambooth.jpg" alt="Team Photo" width={325} height={325} priority/>
             </Tilt>
           </div>
         </div>
         <div className="flex items-center justify-center">
           <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} tiltAngleXInitial={10} tiltAngleYInitial={-5}>
-            <Image className="rounded-lg ring-4 ring-gray-700 block lg:hidden" src="/steamworlds.jpg" alt="GFR at 2023 worlds" width={600} height={600} priority/>
+            <Image className="rounded-lg ring-4 ring-gray-700 block lg:hidden" src="/steambooth.jpg" alt="Team Photo" width={550} height={550} priority/>
           </Tilt>
         </div>
         <EmojiScene />

@@ -11,7 +11,7 @@ export default async function AnnouncementsLayout() {
       <section className="relative min-h-screen flex flex-col px-5 bg-[var(--primary-background-color)]">
         <section className="">
           <div className="mx-auto h-full max-w-screen-xl flex flex-col">
-            <h1 className='text-3xl font-bold '>All Announcements</h1>
+            <h1 className='text-3xl font-bold '>Announcements</h1>
             <hr className="border-primary my-4" />
             <div className='grid gap-6 mt-6 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pb-10'>
               {posts?.map(post => (
