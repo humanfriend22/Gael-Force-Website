@@ -13,6 +13,8 @@ import Tilt from 'react-parallax-tilt';
 
 import EmojiScene from "@/components/EmojiCanvas";
 import {Team} from "@/components/Team";
+import {TeamType, Teams} from "@/data/teams";
+
 
 export default function Web() {
   const container = useRef<HTMLDivElement>(null);
@@ -198,42 +200,17 @@ export default function Web() {
               Teams
             </h1>
             <div className="flex flex-col gap-9">
-              <Team
-                imageUrl={"/ALogo.jpg"}
-                teamName={"Gael Force Ascension"}
-                captainName={"Sahith Ajay"}
-                memberNames={["Lukas Somwong", "dont know", "dont know", "dont know", "dont know", "dont know"]}
-              />
-              <Team
-                imageUrl={"/CLogo.png"}
-                teamName={"Gael Force Corn"}
-                captainName={"Arpit Jena"}
-                memberNames={["Lukas Somwong", "dont know", "dont know", "dont know", "dont know", "dont know"]}
-              />
-              <Team
-                imageUrl={"/KLogo.png"}
-                teamName={"Gael Force Kreamers"}
-                captainName={"Aidan Wang"}
-                memberNames={["Lukas Somwong", "dont know", "dont know", "dont know", "dont know", "dont know"]}
-              />
-              <Team
-                imageUrl={"/RLogo.jpg"}
-                teamName={"Gael Force Rams"}
-                captainName={"Kaushik Chandolu"}
-                memberNames={["Lukas Somwong", "dont know", "dont know", "dont know", "dont know", "dont know"]}
-              />
-              <Team
-                imageUrl={"/VLogo.png"}
-                teamName={"Gael Force V"}
-                captainName={"Aarav Kashyap"}
-                memberNames={["Lukas Somwong", "dont know", "dont know", "dont know", "dont know", "dont know"]}
-              />
-              <Team
-                imageUrl={"/GFRLogo.png"}
-                teamName={"Gael Force Y"}
-                captainName={"Arjun Chakraborty"}
-                memberNames={["Lukas Somwong", "dont know", "dont know", "dont know", "dont know", "dont know"]}
-              />
+              {Teams.map((team: TeamType) => {
+                return (
+                  <Team
+                    imageUrl={team.imageUrl}
+                    teamName={team.teamName}
+                    teamNumber={team.teamNumber}
+                    captainName={team.captainName}
+                    memberNames={team.memberNames}
+                  />
+                )
+              })}
             </div>
           </div>
         </section>

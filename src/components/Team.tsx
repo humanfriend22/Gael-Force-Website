@@ -20,6 +20,7 @@ const team = cva([
 interface TeamProps extends VariantProps<typeof team> {
   imageUrl: string;
   teamName: string;
+  teamNumber: string;
   captainName?: string; // Optional captain name
   memberNames?: string[]; // Optional array of member names
   className?: string;
@@ -28,6 +29,7 @@ interface TeamProps extends VariantProps<typeof team> {
 export function Team({
   imageUrl,
   teamName,
+  teamNumber,
   captainName,
   memberNames,
   intent,
@@ -46,7 +48,7 @@ export function Team({
           />
         </div>
         <div className="ml-4 flex flex-col">
-          <h1 className="text-3xl font-bold sm:text-left text-center pb-3">{teamName}</h1>
+          <h1 className="text-3xl font-bold sm:text-left text-center pb-3">{teamNumber} - {teamName}</h1>
           {captainName && <p className="text-gray-500 font-bold pb-1">Captain: {captainName}</p>}
           {memberNames && (
             <p className="list-disc list-inside text-gray-500 font-bold">
