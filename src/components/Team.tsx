@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const team = cva([
   // Base styles for the team component
-  "flex items-center py-4 px-6 rounded-xl bg-neutral-900 backdrop-blur-2xl shadow-2xl",
+  "flex items-center py-4 md:px-6 px-4 rounded-xl bg-neutral-900 backdrop-blur-2xl shadow-2xl hover:brightness-150 hover:cursor-pointer",
 ], {
   variants: {
     intent: {
@@ -37,8 +37,8 @@ export function Team({
 }: TeamProps) {
   return (
     <div className={twMerge(team({ intent, className }))}>
-      <div className="flex items-center sm:flex-row flex-col">
-        <div className="bg-neutral-800 rounded-lg p-2 sm:mr-4 sm:mb-0 mb-4 shadow-lg shadow-black">
+      <div className="flex items-center flex-col w-full">
+        <div className="rounded-lg md:flex p-2 mb-4 hidden">
           <Image
             src={imageUrl}
             className="rounded-md"
@@ -47,14 +47,24 @@ export function Team({
             height={250}
           />
         </div>
-        <div className="ml-4 flex flex-col">
-          <h1 className="text-3xl font-bold sm:text-left text-center pb-3">{teamNumber} - {teamName}</h1>
-          {captainName && <p className="text-gray-500 font-bold pb-1">Captain: {captainName}</p>}
-          {memberNames && (
-            <p className="list-disc list-inside text-gray-500 font-bold">
-              Members: {memberNames.map((name) => name).join(", ")}
-            </p>
-          )}
+        <div className="rounded-lg flex p-2 mb-4 md:hidden">
+          <Image
+            src={imageUrl}
+            className="rounded-md"
+            alt={`Image of ${teamName}`}
+            width={150}
+            height={150}
+          />
+        </div>
+        <div className="flex flex-col">
+          <h1 className="sm:text-3xl text-xl font-bold text-center pb-3">{teamNumber}</h1>
+          <h2 className="sm:text-xl text-md font-bold text-center pb-3">{teamName}</h2>
+          {captainName && <p className="text-neutral-500 font-bold pb-1 sm:text-md text-sm text-center">Led By <span className="italic">{captainName}</span></p>}
+          {/*{memberNames && (*/}
+          {/*  <p className="list-disc list-inside text-neutral-500 font-bold sm:text-md text-sm">*/}
+          {/*    Members: <span className="italic">{memberNames.map((name) => name).join(", ")}</span>*/}
+          {/*  </p>*/}
+          {/*)}*/}
         </div>
       </div>
     </div>

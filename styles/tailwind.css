@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    ul, ol {
+      @apply list-disc pl-3;
+    }
+}
+
 :root {
     --primary-background-color: hsl(0,0%,5%);
     --primary-text-color: hsl(0,0%,88%);
@@ -37,4 +43,16 @@ html, body {
 
 .outlinedText {
     @apply drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+}
+
+.markdown h1 {
+    @apply text-2xl sm:text-3xl font-bold mb-5 sm:mb-6 text-pretty;
+}
+
+.markdown h2 {
+    @apply text-xl sm:text-2xl font-bold mb-4 sm:mb-5 text-pretty;
+}
+
+.markdown p {
+    @apply sm:text-lg mb-4 sm:mb-5 text-pretty;
 }

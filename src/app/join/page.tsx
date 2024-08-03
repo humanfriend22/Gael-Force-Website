@@ -15,9 +15,9 @@ import EmojiScene from "@/components/EmojiCanvas";
 
 export default function Web() {
   return (
-    <div className="mx-10 gap-16 flex flex-col pt-24 lg:pt-0">
-      <section className="relative h-screen flex flex-col px-5">
-        <div className="mx-auto flex max-w-screen-xl h-full items-center justify-center">
+    <div className="mx-10 gap-16 flex flex-col pt-24 lg:pt-0 -mt-24">
+      <section className="relative h-screen flex flex-col px-5 bg-[var(--primary-background-color)]">
+        <div className="mx-auto flex max-w-screen-xl sm:h-full h-1/2 items-center justify-center">
           <div className="lg:w-1/2 w-full flex flex-col">
             <h1 className="mb-6 max-w-5xl font-semibold leading-none tracking-tight text-primary text-5xl sm:text-7xl md:text-8xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-balance">
               Join us for
@@ -36,21 +36,21 @@ export default function Web() {
           </div>
           <div className="lg:flex hidden w-1/2 items-center justify-center pl-5">
             <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} className="" tiltAngleXInitial={10} tiltAngleYInitial={-5}>
-              <Image className="rounded-lg ring-4 ring-gray-700 hidden 2xl:block" src="/steamworlds.jpg" alt="GFR officers laughing" width={550} height={550} />
-              <Image className="rounded-lg ring-4 ring-gray-700 hidden xl:block 2xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={450} height={450} />
-              <Image className="rounded-lg ring-4 ring-gray-700 lg:block xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={350} height={350} />
+              <Image className="rounded-lg ring-4 ring-gray-700 hidden 2xl:block" src="/steamworlds.jpg" alt="GFR officers laughing" width={550} height={550} priority/>
+              <Image className="rounded-lg ring-4 ring-gray-700 hidden xl:block 2xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={450} height={450} priority/>
+              <Image className="rounded-lg ring-4 ring-gray-700 lg:block xl:hidden" src="/steamworlds.jpg" alt="GFR officers laughing" width={350} height={350} priority/>
             </Tilt>
           </div>
         </div>
         <div className="flex items-center justify-center">
           <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} tiltAngleXInitial={10} tiltAngleYInitial={-5}>
-            <Image className="rounded-lg ring-4 ring-gray-700 block lg:hidden" src="/steamworlds.jpg" alt="GFR at 2023 worlds" width={600} height={600} />
+            <Image className="rounded-lg ring-4 ring-gray-700 block lg:hidden" src="/steamworlds.jpg" alt="GFR at 2023 worlds" width={600} height={600} priority/>
           </Tilt>
         </div>
         <EmojiScene />
       </section>
       <section className="">
-        <div className="mx-auto max-w-screen-xl py-8 flex flex-col lg:py-16 px-5">
+        <div className="mx-auto max-w-screen-xl py-8 flex flex-col lg:py-16 px-5 bg-[var(--primary-background-color)]">
           <h1 className="mb-10 max-w-2xl text-3xl scroll-m-44 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             The Process
           </h1>
