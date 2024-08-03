@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    ul, ol {
-      @apply list-disc pl-3;
-    }
-}
-
 :root {
     --primary-background-color: hsl(0,0%,5%);
     --primary-text-color: hsl(0,0%,88%);
@@ -55,4 +49,8 @@ html, body {
 
 .markdown p {
     @apply sm:text-lg mb-4 sm:mb-5 text-pretty;
+}
+
+.markdown ul, .markdown ol {
+    @apply list-disc pl-3;
 }

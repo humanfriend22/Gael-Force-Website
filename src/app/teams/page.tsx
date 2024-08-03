@@ -31,9 +31,6 @@ export default function Web() {
             <p className="mb-6 max-w-2xl font-light text-gray-400 text-sm sm:text-lg md:text-lg lg:mb-8 lg:text-lg xl:text-xl 2xl:text-2xl text-balance">
               We currently have 6 competitive teams that compete in the VEX Robotics Competition. We have approximately 80 students on teams, each made up of 10-15 students. Here you can find more information about each.
             </p>
-            {/*<p className="mb-6 max-w-2xl font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl text-balance">*/}
-            {/*  Contact me at <span className="font-bold">somwonglukas@gmail.com</span>*/}
-            {/*</p>*/}
           </div>
           <div className="lg:flex hidden w-1/2 items-center justify-center pl-5">
             <Tilt tiltMaxAngleX={14} tiltMaxAngleY={14} className="" tiltAngleXInitial={10} tiltAngleYInitial={-5}>

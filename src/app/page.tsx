@@ -122,22 +122,6 @@ export default function Web() {
           </div>
         </section>
         <section className="">
-          <div className="hero_marquee mx-auto max-w-screen-xl">
-            <h1 id="sponsors" className="mb-10 max-w-2xl scroll-m-24 font-semibold leading-none uppercase tracking-wider text-primary text-xl md:text-2xl xl:text-3xl">
-              Our Sponsors
-            </h1>
-            <Marquee pauseOnHover={true} speed={50} className="mx-auto max-w-screen-xl overflow-hidden h-22">
-              <img src="/GFRLogo.png" alt="GFR Logo" width={200} height={200} className="mr-10 md:block hidden"/>
-              <img src="/GFRLogo.png" alt="GFR Logo" width={200} height={200} className="mr-10 md:block hidden"/>
-              <img src="/GFRLogo.png" alt="GFR Logo" width={200} height={200} className="mr-10 md:block hidden"/>
-
-              <img src="/GFRLogo.png" alt="GFR Logo" width={100} height={100} className="mr-10 md:hidden block"/>
-              <img src="/GFRLogo.png" alt="GFR Logo" width={100} height={100} className="mr-10 md:hidden block"/>
-              <img src="/GFRLogo.png" alt="GFR Logo" width={100} height={100} className="mr-10 md:hidden block"/>
-            </Marquee>
-          </div>
-        </section>
-        <section className="">
           <div className="mx-auto max-w-screen-xl flex flex-col">
             <h1 id="about" className="mb-10 max-w-2xl scroll-m-24 font-semibold leading-none tracking-tight text-primary text-3xl md:text-4xl xl:text-5xl">
               About Us
@@ -183,6 +167,22 @@ export default function Web() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+        <section className="">
+          <div className="mx-auto max-w-screen-xl">
+            <h1 id="sponsors" className="mb-10 max-w-2xl font-semibold leading-none uppercase tracking-wider text-primary text-xl md:text-2xl xl:text-3xl">
+              Our Sponsors
+            </h1>
+            <Marquee pauseOnHover={true} speed={50} className="mx-auto max-w-screen-xl min-h-36">
+              <img src="/GFRLogo.png" alt="GFR Logo" width={200} height={200} className="mr-10 md:block hidden"/>
+              <img src="/GFRLogo.png" alt="GFR Logo" width={200} height={200} className="mr-10 md:block hidden"/>
+              <img src="/GFRLogo.png" alt="GFR Logo" width={200} height={200} className="mr-10 md:block hidden"/>
+
+              <img src="/GFRLogo.png" alt="GFR Logo" width={100} height={100} className="mr-10 md:hidden block"/>
+              <img src="/GFRLogo.png" alt="GFR Logo" width={100} height={100} className="mr-10 md:hidden block"/>
+              <img src="/GFRLogo.png" alt="GFR Logo" width={100} height={100} className="mr-10 md:hidden block"/>
+            </Marquee>
           </div>
         </section>
       </section>

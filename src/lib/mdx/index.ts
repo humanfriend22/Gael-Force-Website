@@ -6,7 +6,7 @@ import { useMDXComponents } from '@/mdx-components'
 import {PageMeta} from "@/lib/definitions";
 
 
-const rootDirectory = path.join(process.cwd(), 'src', 'app', 'content')
+const rootDirectory = path.join(process.cwd(), 'src', 'app', 'content', 'announcements')
 
 export const getPostBySlug = async (slug): Promise<{ meta: PageMeta, content: any }> => {
   const realSlug = slug.replace(/\.mdx$/, '')

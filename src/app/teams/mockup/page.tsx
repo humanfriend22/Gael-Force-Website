@@ -85,7 +85,7 @@ export default function TeamPage() {
     { /* image in background takes up full width and fades to black downwards */ }
     <div className="relative w-full">
       <div className="absolute h-[500px] w-full -mt-24">
-        <NextImage src="/steamworlds.jpg" alt="teamphoto" fill objectFit="cover" className="opacity-40 object-top" />
+        <NextImage src="/steamworlds.jpg" alt="teamphoto" fill className="object-cover opacity-40 object-top" />
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--primary-background-color)] via-transparent to-[var(--primary-background-color)]" />
       </div>
       <div className="mx-auto max-w-screen-xl py-8 px-5 text-primary z-[5] relative">
@@ -112,6 +112,27 @@ export default function TeamPage() {
         {/*  </div>*/}
         {/*</section>*/}
 
+        <section className="flex items-center mb-16">
+          <div className="flex flex-col">
+            <h2 className="text-2xl font-semibold mb-4 text-white">About Us</h2>
+            <p className="text-lg text-gray-400">
+              Team 5327S, known as "Gael Force Swag," is a dynamic group of high school students passionate about engineering, programming, and innovation. We pride ourselves on our collaborative spirit, problem-solving abilities, and dedication to excellence.
+              Beyond competition, we're committed to promoting STEM education in our community. We regularly host workshops for younger students, participate in local tech fairs, and mentor aspiring robotics teams in nearby schools. We're also proud to have been recognized with numerous awards for our sportsmanship, teamwork, and technical achievements.
+            </p>
+          </div>
+        </section>
+
+        <section className="mb-28">
+          <h2 className="text-2xl font-semibold mb-4 text-white">Team Socials</h2>
+          <div className="flex space-x-4">
+            <Link href=""><NextImage src="/instagram.png" alt="Instagram" width={32} height={32} /></Link>
+            <Link href="#"><NextImage src="/youtube.png" alt="YouTube" width={32} height={32} /></Link>
+            <Link href="#"><NextImage src="/email.png" alt="Email" width={32} height={32} /></Link>
+            <Link href="#"><NextImage src="/tiktok.png" alt="TikTok" width={32} height={32} /></Link>
+            <Link href="#"><NextImage src="/discord.png" alt="Discord" width={32} height={32} /></Link>
+          </div>
+        </section>
+
         <section className="mb-16">
           <div className="flex flex-wrap items-start justify-center">
             {teamMembers.map((member, index) => (
@@ -126,29 +147,7 @@ export default function TeamPage() {
           </div>
         </section>
 
-        <section className="flex items-center mb-10">
-          <div className="flex flex-col">
-            <h2 className="text-2xl font-semibold mb-4 text-white">About Us</h2>
-            <p className="text-lg text-gray-400">
-              Team 5327S, known as "Gael Force Swag," is a dynamic group of high school students passionate about engineering, programming, and innovation. We pride ourselves on our collaborative spirit, problem-solving abilities, and dedication to excellence.
-              Beyond competition, we're committed to promoting STEM education in our community. We regularly host workshops for younger students, participate in local tech fairs, and mentor aspiring robotics teams in nearby schools. We're also proud to have been recognized with numerous awards for our sportsmanship, teamwork, and technical achievements.
-            </p>
-          </div>
-          {/*<div className="flex justify-center">*/}
-          {/*  <Image src="/gfrworlds2023.jpg" alt="Team Photo" width={400} height={300} />*/}
-          {/*</div>*/}
-        </section>
 
-        <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-4 text-white">Team Socials</h2>
-          <div className="flex space-x-4">
-            <Link href=""><NextImage src="/instagram.png" alt="Instagram" width={32} height={32} /></Link>
-            <Link href="#"><NextImage src="/youtube.png" alt="YouTube" width={32} height={32} /></Link>
-            <Link href="#"><NextImage src="/email.png" alt="Email" width={32} height={32} /></Link>
-            <Link href="#"><NextImage src="/tiktok.png" alt="TikTok" width={32} height={32} /></Link>
-            <Link href="#"><NextImage src="/discord.png" alt="Discord" width={32} height={32} /></Link>
-          </div>
-        </section>
 
         <section>
           <h2 className="text-2xl font-semibold mb-4 text-white">Photos</h2>

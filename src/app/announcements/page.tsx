@@ -7,7 +7,7 @@ export default async function AnnouncementsLayout() {
   const posts: PageMeta[]  = await getAllPostsMeta()
 
   return (
-    <div className="mx-10 gap-16 flex flex-col pt-20 lg:pt-12 text-primary">
+    <div className="mx-10 gap-16 flex flex-col pt-24 text-primary">
       <section className="relative min-h-screen flex flex-col px-5 bg-[var(--primary-background-color)]">
         <section className="">
           <div className="mx-auto h-full max-w-screen-xl flex flex-col">
@@ -33,9 +33,6 @@ export default async function AnnouncementsLayout() {
                 </Link>
               ))}
             </div>
-            {/*<h1 id="about" className="mb-10 max-w-2xl scroll-m-24 font-semibold leading-none tracking-tight text-primary text-3xl md:text-4xl xl:text-5xl">*/}
-            {/*  About Us*/}
-            {/*</h1>*/}
           </div>
         </section>
       </section>

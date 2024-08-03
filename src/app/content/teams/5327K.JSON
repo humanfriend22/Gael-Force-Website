@@ -1,0 +1,30 @@
+{
+  "teamNumber": "5327K",
+  "teamName": "Gael Force Kreamers",
+  "teamLogo": "/KLogo.png",
+  "teamPicture": "",
+  "captainName": "Aiden Wang",
+  "aboutSection": "5327K is a vex robotics team out of Dublin California who love to build robots and win competitions. We use our combined experience to gain a competitive edge while learning and having fun.",
+  "teamColor": "#0082ff",
+  "members": [
+    { "name": "Aiden Wang", "caption": "Team Captain", "image": "" },
+    { "name": "Kaito", "caption": "", "image": "" },
+    { "name": "Ayush", "caption": "", "image": "" },
+    { "name": "William", "caption": "", "image": "" },
+    { "name": "Lukas", "caption": "", "image": "" },
+    { "name": "David", "caption": "", "image": "" },
+    { "name": "Jayden", "caption": "", "image": "" },
+    { "name": "Easton", "caption": "", "image": "" },
+    { "name": "Landon", "caption": "", "image": "" },
+    { "name": "Alicia", "caption": "", "image": "" },
+    { "name": "Jay", "caption": "", "image": "" },
+    { "name": "Austin", "caption": "", "image": "" },
+    { "name": "Sean", "caption": "", "image": "" },
+    { "name": "Angela", "caption": "", "image": "" },
+    { "name": "Moon", "caption": "", "image": "" },
+    { "name": "Jack", "caption": "", "image": "" }
+
+  ],
+  "socials": [],
+  "gallery": []
+}

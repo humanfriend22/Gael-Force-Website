@@ -56,50 +56,66 @@ export default function Web() {
           </h1>
           <ol className="mb-10 list-decimal list-inside">
             <li className="mb-2 font-light text-gray-400 md:text-lg lg:mb-4 lg:text-xl leading-relaxed text-balance">
-              Apply to join Gael Force Robotics
+              Join the GFR Discord Server
             </li>
             <li className="mb-2 font-light text-gray-400 md:text-lg lg:mb-4 lg:text-xl leading-relaxed text-balance">
-              Join the Gael Force Academy
+              Fill out Club Enrollment Form
             </li>
             <li className="mb-2 font-light text-gray-400 md:text-lg lg:mb-4 lg:text-xl leading-relaxed text-balance">
-              Attend Academy meetings
+              Attend Parent Information Meeting
             </li>
             <li className="mb-2 font-light text-gray-400 md:text-lg lg:mb-4 lg:text-xl leading-relaxed text-balance">
-              Become an intern for a Competitive Team
+              Attend Development Academy (GFA)
             </li>
             <li className="mb-2 font-light text-gray-400 md:text-lg lg:mb-4 lg:text-xl leading-relaxed text-balance">
-              Join a Competitive Team
+              Get Drafted to a Competitive Team
             </li>
           </ol>
-          <h1 className="mb-10 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
-            Club Application
+          <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+            GFR Discord Server
           </h1>
-          <p className="mb-6 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
-            First things first, you need to apply to become a member of GFR. Fill out our
-            &nbsp;<a href="/" className="font-bold text-primary underline">application form</a>
-            &nbsp;so we know you're interested. After filling out our form, we will reach out to you with more information.
+          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+            The first step to joining GFR is to join our Discord server. This is where we communicate with our members,
+            post announcements, and host meetings. you can find an invite to our server <a href="https://discord.gg/tpNP8Pte7u" target="_blank" className="font-bold text-primary underline">here</a>
           </p>
-          <h1 className="mb-10 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+          <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+            Club Enrollment Form
+          </h1>
+          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+            Before becoming an official member of our club, you must first fill out our <a href="https://tinyurl.com/gfrenrollment24-25" target="_blank" className="font-bold text-primary underline">enrollment form</a>. Upon completion, you will become a member of our club development academy.
+          </p>
+          <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+            Parent Information Meeting
+          </h1>
+          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+            Parents are required to attend a parent information meeting. This meeting will provide parents with information
+            about the club, the development academy, and the competitive teams. We want your parents to have a lot of exposure
+            into GFR and we want to keep them well informed. If you join the club late, we will schedule a meeting with you or your parents.
+          </p>
+          <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Gael Force Academy
           </h1>
-          <p className="mb-6 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
             If you're completely new to robotics, you'll be joining the Gael Force Academy (hereafter referred to as GFA).
-            GFA is our way of teaching new members that may not be all too familiar with VEX, VRC, or robotics. GFA has meetings
-            after school, twice a week, in portable P5. These meetings typically run from 3:30 to 5:30. They are led by our developer team officers.
+            GFA is our way of <span className="font-bold">teaching new members that may not be all too familiar</span> with VEX, VRC, or robotics. GFA has meetings
+            after school, twice a week, in portable P6. These meetings typically run from 3:30 to 5:30. They are led by our developer team officers.
             They often have guest appearances from captains, board members, and competition team members that help teach.
             GFA will teach you everything you need to know about robotics. Important topics such as build methods, design,
             VEX terminology, programming, CAD, and many more will all be covered in the curriculum.
-            Check out the GFA page for more information about our Academy program.
           </p>
-          <h1 className="mb-10 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
-            Competitive Teams
+          <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+            Competitive Team Drafts
           </h1>
-          <p className="mb-6 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
             After spending a considerable amount of time in the Academy program, learning the basics of Robotics,
             and showing a willingness to cooperate and dedicate time to robotics, you will be given the chance to join a competitive team.
-            Two interviews will be conducted throughout the year by captains to determine if you are ready to join a competitive team. Because
-            of the limited space on the competitive teams, not everyone will be able to join. However, those that do join will get to experience
-            the thrill of competition and the joy of working with a team to accomplish a common goal.
+            <span className="font-bold"> After two months into the season, the drafting season starts and all the DEV Academy students get the opportunity to join a team.</span>
+            The club will put out a Google Form for DEV students to apply for a team in their rank of choice. <span className="font-bold">Team Captains will then choose
+            students based on activeness, participation in DEV, and potentially a short interview.</span> Two months after the first draft, DEV
+            students that didn't make it onto a team will try to apply again. Hopefully, with more knowledge and growth than the first time.
+            The process is similar to the first draft. Because of the limited space on the competitive teams, not everyone will be
+            able to join. However, those that do join will get to experience the thrill of competition and the joy of working with a
+            team to accomplish a common goal.
           </p>
         </div>
       </section>

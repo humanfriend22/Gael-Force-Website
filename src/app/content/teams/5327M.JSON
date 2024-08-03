@@ -1,0 +1,40 @@
+{
+  "teamNumber": "5327M",
+  "teamName": "Gael Force Mockup",
+  "teamLogo": "/KLogo.png",
+  "teamPicture": "/steamworlds.jpg",
+  "captainName": "Lukas Somwong",
+  "aboutSection": "Team 5327S, known as \"Gael Force Swag,\" is a dynamic group of high school students passionate about engineering, programming, and innovation. We pride ourselves on our collaborative spirit, problem-solving abilities, and dedication to excellence. Beyond competition, we're committed to promoting STEM education in our community. We regularly host workshops for younger students, participate in local tech fairs, and mentor aspiring robotics teams in nearby schools. We're also proud to have been recognized with numerous awards for our sportsmanship, teamwork, and technical achievements.",
+  "members": [
+    { "name": "Atiksh Paul", "caption": "Team Captain", "image": "/atikshsize.jpg" },
+    { "name": "Lukas Somwong", "caption": "Programmer, Documentation, Build", "image": "/atikshsize.jpg" },
+    { "name": "Someone Withlongname", "caption": "Programmer", "image": "/atikshsize.jpg" },
+    { "name": "Paulian Atiksh", "caption": "Designer", "image": "/atikshsize.jpg" },
+    { "name": "Mayden Jusset", "caption": "Documentation", "image": "/atikshsize.jpg" },
+    { "name": "Naman Garg", "caption": "Team Admin", "image": "/atikshsize.jpg" },
+    { "name": "Jia Aggarwal", "caption": "Drive Team", "image": "/atikshsize.jpg" },
+    { "name": "Atiksh Pa", "caption": "Driver", "image": "/atikshsize.jpg" },
+    { "name": "Atiksh Paulatraides", "caption": "Public Relations", "image": "/atikshsize.jpg" },
+    { "name": "Atiksh Sometingverylong", "caption": "Coder", "image": "/atikshsize.jpg" },
+    { "name": "Atiksh test", "caption": "Notebooker, Secretary", "image": "/atikshsize.jpg" },
+    { "name": "Atiksh Fury", "caption": "Programmer, Builder, Notebooker", "image": "/atikshsize.jpg" }
+  ],
+  "socials": [
+    { "name": "Instagram", "link": "https://www.instagram.com/gaelforcerobotics/" },
+    { "name": "YouTube", "link": "https://www.youtube.com/channel/UC2z8O7j3g4f9eQ7QGKlKJ8Q" },
+    { "name": "Email", "link": "myemail@gmail.com" },
+    { "name": "TikTok", "link": "https://www.tiktok.com/@gaelforcerobotics" },
+    { "name": "Discord", "link": "https://discord.gg/gaelforce" }
+  ],
+  "gallery": [
+    "/botb2022.jpg",
+    "/botb2024.jpg",
+    "/girlpowered2024.jpg",
+    "/gfrworlds2023.jpg",
+    "/showcase2024.jpg",
+    "/smilingofficers.jpg",
+    "/steambooth.jpg",
+    "/steamworlds.jpg",
+    "/atikshsize.jpg"
+  ]
+}
