@@ -50,7 +50,7 @@ export default function Web() {
         <EmojiScene />
       </section>
       <section className="">
-        <div className="mx-auto max-w-screen-xl py-8 flex flex-col lg:py-16 px-5 bg-[var(--primary-background-color)]">
+        <div className="mx-auto max-w-screen-xl py-8 flex flex-col lg:py-16 bg-[var(--primary-background-color)]">
           <h1 className="mb-10 max-w-2xl text-3xl scroll-m-44 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             The Process
           </h1>
@@ -74,20 +74,21 @@ export default function Web() {
           <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             GFR Discord Server
           </h1>
-          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+          <p className="mb-16 font-light text-gray-400 md:text-lg lg:mb-12 lg:text-xl leading-relaxed text-balance">
             The first step to joining GFR is to join our Discord server. This is where we communicate with our members,
             post announcements, and host meetings. you can find an invite to our server <a href="https://discord.gg/tpNP8Pte7u" target="_blank" className="font-bold text-primary underline">here</a>
           </p>
           <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Club Enrollment Form
           </h1>
-          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
-            Before becoming an official member of our club, you must first fill out our <a href="https://tinyurl.com/gfrenrollment24-25" target="_blank" className="font-bold text-primary underline">enrollment form</a>. Upon completion, you will become a member of our club development academy.
+          <p className="mb-16 font-light text-gray-400 md:text-lg lg:mb-12 lg:text-xl leading-relaxed text-balance">
+            Before becoming an official member of our club, you must first fill out our <a href="https://tinyurl.com/gfrenrollment24-25" target="_blank" className="font-bold text-primary underline">enrollment form</a> after looking at our <a href="https://tinyurl.com/gfrexpectations24-25" target="_blank" className="font-bold text-primary underline">expectations</a>. Upon completion, you will become a member of our club development academy.
+            If you would like to make a donation to our club, you can do so <a href="https://tinyurl.com/gfrdonation" target="_blank" className="font-bold text-primary underline">here</a>.
           </p>
           <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Parent Information Meeting
           </h1>
-          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+          <p className="mb-16 font-light text-gray-400 md:text-lg lg:mb-12 lg:text-xl leading-relaxed text-balance">
             Parents are required to attend a parent information meeting. This meeting will provide parents with information
             about the club, the development academy, and the competitive teams. We want your parents to have a lot of exposure
             into GFR and we want to keep them well informed. If you join the club late, we will schedule a meeting with you or your parents.
@@ -95,7 +96,7 @@ export default function Web() {
           <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Gael Force Academy
           </h1>
-          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+          <p className="mb-16 font-light text-gray-400 md:text-lg lg:mb-12 lg:text-xl leading-relaxed text-balance">
             If you're completely new to robotics, you'll be joining the Gael Force Academy (hereafter referred to as GFA).
             GFA is our way of <span className="font-bold">teaching new members that may not be all too familiar</span> with VEX, VRC, or robotics. GFA has meetings
             after school, twice a week, in portable P6. These meetings typically run from 3:30 to 5:30. They are led by our developer team officers.
@@ -106,7 +107,7 @@ export default function Web() {
           <h1 className="mb-6 max-w-2xl text-3xl scroll-m-24 font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Competitive Team Drafts
           </h1>
-          <p className="mb-10 font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl leading-relaxed text-balance">
+          <p className="mb-16 font-light text-gray-400 md:text-lg lg:mb-12 lg:text-xl leading-relaxed text-balance">
             After spending a considerable amount of time in the Academy program, learning the basics of Robotics,
             and showing a willingness to cooperate and dedicate time to robotics, you will be given the chance to join a competitive team.
             <span className="font-bold"> After two months into the season, the drafting season starts and all the DEV Academy students get the opportunity to join a team.</span>

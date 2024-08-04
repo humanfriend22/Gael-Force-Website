@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { TeamMeta } from "@/lib/definitions"
 
-const rootDirectory = path.join(process.cwd(), 'src', 'app', 'content', 'teams')
+const rootDirectory = path.join(process.cwd(), 'src', 'data', 'teams')
 
 export const getTeamBySlug = async (slug: string): Promise<{ content: TeamMeta }> => {
   const filePath = path.join(rootDirectory, `${slug}.JSON`)

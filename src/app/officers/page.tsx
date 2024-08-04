@@ -25,7 +25,7 @@ export default function OfficersPage() {
     { /* image in background takes up full width and fades to black downwards */ }
     <div className="relative w-full">
       <div className="absolute h-[500px] w-full">
-        <NextImage src="/gfr-bg.png" alt="teamphoto" fill className="object-cover opacity-40 object-middle" />
+        <NextImage src="/gfr-bg.png" alt="teamphoto" fill priority className="object-cover opacity-40 object-middle" />
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--primary-background-color)] via-transparent to-[var(--primary-background-color)]" />
       </div>
       <div className="mx-auto max-w-screen-xl py-8 sm:py-16 px-5 text-primary z-[5] relative">

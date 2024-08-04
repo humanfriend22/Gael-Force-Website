@@ -6,6 +6,7 @@ import {Metadata} from "next";
 
 export const metadata: Metadata = {
   title: "Gael Force Robotics",
+  description: "Gael Force Robotics is a competitive robotics club of Dublin High School based in Dublin, California. We have competitive teams that compete in the VEX Robotics Competition and host annual tournaments and workshops to promote STEM education.",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

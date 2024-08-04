@@ -15,7 +15,7 @@ export const Achievements: AchievementYear[] = [
   {
     seasonName: "In The Zone",
     seasonYears: "2017-2018",
-    tagLine: "CONES!",
+    tagLine: "Cones!",
     achievements: [
       {
         teamNumber: "5327A",
@@ -54,7 +54,7 @@ export const Achievements: AchievementYear[] = [
   {
     seasonName: "Change Up",
     seasonYears: "2020-2021",
-    tagLine: "Covid Season",
+    tagLine: "Virtual Competitions!",
     achievements: []
   },
   {
@@ -72,7 +72,7 @@ export const Achievements: AchievementYear[] = [
   {
     seasonName: "Over Under",
     seasonYears: "2023-2024",
-    tagLine: "Tribals! Tribals! Tribals!",
+    tagLine: "Tribals!",
     achievements: [
       {
         teamNumber: "5327A",

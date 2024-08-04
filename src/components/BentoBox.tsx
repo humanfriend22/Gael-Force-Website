@@ -9,9 +9,7 @@ const bentoBox = cva(["w-full", "relative", "glass-container", "glass-container-
   variants: {
     size: {
       onexy: [],
-      twoxy: ["md:col-span-2", "md:row-span-2"],
-      twox: ["md:col-span-2"],
-      threex: ["md:col-span-3"],
+      twoxoney: ["md:col-span-2"],
     }
   },
   defaultVariants: {

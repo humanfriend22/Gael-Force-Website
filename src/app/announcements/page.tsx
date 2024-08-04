@@ -8,7 +8,7 @@ export default async function AnnouncementsLayout() {
 
   return (
     <div className="mx-10 gap-16 flex flex-col pt-24 text-primary">
-      <section className="relative min-h-screen flex flex-col px-5 bg-[var(--primary-background-color)]">
+      <section className="relative min-h-screen flex flex-col bg-[var(--primary-background-color)]">
         <section className="">
           <div className="mx-auto h-full max-w-screen-xl flex flex-col">
             <h1 className='text-3xl font-bold '>Announcements</h1>

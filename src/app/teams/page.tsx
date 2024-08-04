@@ -1,14 +1,6 @@
 "use client"
 import Image from 'next/image';
-import {BentoBox} from "@/components/BentoBox";
-import Marquee from "react-fast-marquee";
 
-import { useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-
-import userPrefersReducedMotion from "@/hooks/userPrefersReducedMotion";
-import Link from "next/link";
 import Tilt from 'react-parallax-tilt';
 
 import EmojiScene from "@/components/EmojiCanvas";
@@ -17,8 +9,8 @@ import {TeamType, Teams} from "@/data/teams";
 
 export default function Web() {
   return (
-    <div className="mx-10 gap-16 flex flex-col pt-24 lg:pt-0 -mt-24">
-      <section className="relative h-screen flex flex-col px-5 bg-[var(--primary-background-color)]">
+    <div className="mx-10 gap-16 flex flex-col pt-24 lg:pt-0 -mt-24 bg-[var(--primary-background-color)]">
+      <section className="relative h-screen flex flex-col px-5">
         <div className="mx-auto flex max-w-screen-xl sm:h-full h-1/2 items-center justify-center">
           <div className="lg:w-1/2 w-full flex flex-col">
             <h1 className="mb-6 max-w-5xl font-semibold leading-none tracking-tight text-primary text-5xl sm:text-7xl md:text-8xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-balance">
