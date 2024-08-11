@@ -4,6 +4,7 @@ export interface PageMeta {
   author: string
   date: string
   image?: string
+  imageDescription?: string
   slug: string
 }
 

@@ -47,10 +47,18 @@ html, body {
     @apply text-xl sm:text-2xl font-bold mb-4 sm:mb-5 text-pretty;
 }
 
+.markdown h3 {
+    @apply text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-pretty;
+}
+
 .markdown p {
-    @apply sm:text-lg mb-4 sm:mb-5 text-pretty;
+    @apply sm:text-lg mb-4 sm:mb-5 text-pretty leading-relaxed;
 }
 
 .markdown ul, .markdown ol {
-    @apply list-disc pl-3;
+    @apply list-disc pl-3 sm:pl-4 mb-4 sm:mb-5 text-pretty;
+}
+
+.markdown a {
+    @apply font-bold underline text-primary;
 }

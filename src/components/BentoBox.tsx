@@ -33,9 +33,9 @@ export function BentoBox({ size, className, title, description, date, image, lin
       <div
         className="opacity-0 group-hover:opacity-100 transition-all duration-500 animate-rotate absolute inset-0 h-full w-full rounded-full bg-[#8FB5E7]"
       ></div>
-      <div className="relative w-full h-full">
-        <Image src={image} alt="Rocket" width={1500} height={1500} className="rounded-lg h-full w-full brightness-[0.4] group-hover:brightness-[0.5] object-cover" />
-        <div className="absolute inset-0 backdrop-saturate-[1.2] rounded-lg"></div>
+      <div className="relative h-full w-full">
+        <Image src={image} alt="Rocket" width={1500} height={1500} className="h-full w-full rounded-lg object-cover brightness-[0.4] group-hover:brightness-[0.5]" />
+        <div className="absolute inset-0 rounded-lg backdrop-saturate-[1.2]"></div>
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-center outlinedText">
         <h1 className={`mt-4 ${size !== "onexy" ? "xl:text-5xl" : ""} xl:text-3xl lg:text-2xl md:text-xl text-lg font-extrabold text-center md:px-4 px-2 w-full`}>{title}</h1>
@@ -43,8 +43,8 @@ export function BentoBox({ size, className, title, description, date, image, lin
         <p className={`mt-5 ${size !== "onexy" ? "xl:text-2xl" : ""} xl:text-xl lg:text-lg md:text-md text-sm font-bold leading-relaxed text-center text-balance md:px-4 px-2 w-full`}>{description}</p>
       </div>
       {link && <>
-        <Link href={link} className="absolute inset-0 flex flex-col outlinedText h-full w-full"></Link>
-        <FaArrowRightLong className="absolute right-8 bottom-5 outlinedText md:h-10 md:w-10 h-8 w-8" />
+        <Link href={link} className="absolute inset-0 flex h-full w-full flex-col outlinedText"></Link>
+        <FaArrowRightLong className="absolute right-8 bottom-5 h-8 w-8 outlinedText md:h-10 md:w-10" />
       </>}
     </div>
   );

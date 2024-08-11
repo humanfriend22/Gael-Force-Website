@@ -89,9 +89,9 @@ const EmojiScene = () => {
     }, [containerRef, canvasRef]);
 
     return (
-        <div className="w-full h-full absolute top-0 left-0 pointer-events-none bg-transparent" ref={containerRef}>
+        <div className="pointer-events-none absolute top-0 left-0 h-full w-full bg-transparent" ref={containerRef}>
             <canvas
-              className="w-full h-full absolute top-0 left-0 pointer-events-none"
+              className="pointer-events-none absolute top-0 left-0 h-full w-full"
               ref={canvasRef}></canvas>
         </div>
     );

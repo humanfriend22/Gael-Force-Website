@@ -23,7 +23,7 @@ export interface FooterProps extends VariantProps<typeof footer> {
 export function Footer({ intent, className }: FooterProps) {
   return <div className={twMerge(footer({ intent, className }))}>
     <div className="flex flex-col gap-6">
-      <a className="font-extrabold flex items-center gap-2 tracking-wide" href="/">
+      <a className="flex items-center gap-2 font-extrabold tracking-wide" href="/">
         <Image src="/GFRLogo.png" alt="GFR Logo" width={50} height={50} />
         Gael Force Robotics
       </a>
@@ -40,13 +40,13 @@ export function Footer({ intent, className }: FooterProps) {
       </div>
     </div>
     <div className="flex xl:flex-row sm:flex-col flex-row gap-8 sm:mt-3 mt-5 [&>*]:font-medium [&>*]:h-min [&>*]:transition-colors [&>*]:duration-500">
-      <div className="flex sm:flex-row flex-col gap-8">
+      <div className="flex flex-col gap-8 sm:flex-row">
         <Link href="/#about" className="hover:text-[#DB4A4A]">About Us</Link>
         <Link href="/#events" className="hover:text-[#DB4A4A]">Events</Link>
         <Link href="/teams" className="hover:text-[#DB4A4A]">Teams</Link>
         <Link href="/join" className="hover:text-[#DB4A4A]">Join</Link>
       </div>
-      <div className="flex sm:flex-row flex-col gap-8">
+      <div className="flex flex-col gap-8 sm:flex-row">
         <Link href="/announcements" className="hover:text-[#DB4A4A]">Blog</Link>
         <a target="_blank" href="https://docs.google.com/presentation/d/1ZvMV6ziZNt63Mm3749HrOVxo322CvukH_DT45OQRQqM/edit?usp=sharing" className="hover:text-[#DB4A4A]">Sponsor Packet</a>
         <Link href="/officers" className="hover:text-[#DB4A4A]">Officers</Link>

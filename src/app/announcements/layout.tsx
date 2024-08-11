@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Stay up to date with the latest news and announcements from Gael Force Robotics."
 }
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({children}: { children: React.ReactNode }) {
   return <>
     {children}
   </>

@@ -44,13 +44,13 @@ export function NavBar({ intent, className }: NavBarProps) {
   }, [pathname, params])
 
   return <div className={twMerge(navBar({ intent, className })) + (hamburgerOpen ? " bg-[var(--primary-background-color)]" : " bg-gradient-to-b from-black/80 to-black/1")}>
-    <div className="max-w-screen-xl 2xl:mx-4 ml-8 mr-4 flex w-full">
-      <Link className="font-extrabold flex items-center gap-2 tracking-wide sm:text-lg text-sm" href="/">
+    <div className="mr-4 ml-8 flex w-full max-w-screen-xl 2xl:mx-4">
+      <Link className="flex items-center gap-2 text-sm font-extrabold tracking-wide sm:text-lg" href="/">
         <Image src="/GFRLogo.png" alt="GFR Logo" width={50} height={50} className="hidden sm:block" />
         <Image src="/GFRLogo.png" alt="GFR Logo" width={30} height={30} className="block sm:hidden" />
         <span className="from-[#DB4A4A] via-[#8FB5E7] to-white bg-clip-text text-transparent bg-gradient-to-r">Gael Force Robotics</span>
       </Link>
-      <div className="lg:hidden ml-auto text-primary">
+      <div className="ml-auto text-primary lg:hidden">
         <Hamburger toggled={hamburgerOpen} toggle={setHamburgerOpen} direction="left" size={28} />
       </div>
       <div  className="hidden justify-center items-center space-x-8 lg:flex ml-auto sm:text-lg text-sm [&>*]:font-medium [&>*]:h-min [&>*]:transition-colors [&>*]:duration-500">
@@ -62,7 +62,7 @@ export function NavBar({ intent, className }: NavBarProps) {
         <a target="_blank" href="https://docs.google.com/presentation/d/1ZvMV6ziZNt63Mm3749HrOVxo322CvukH_DT45OQRQqM/edit?usp=sharing" className="hover:text-[#DB4A4A]">Sponsor Packet</a>
         <div className="relative group">
           <button className="hover:text-[#DB4A4A]">More <IoIosArrowDown className="inline" /></button>
-          <div className="group-hover:max-h-80 group-hover:visible group-hover:p-3 mt-3 max-h-0 invisible overflow-hidden flex flex-col gap-3 absolute z-10 bg-neutral-800/80 text-white rounded-md p-0 max-w-[200px] min-w-[80px] transition-all duration-500">
+          <div className="invisible absolute z-10 mt-3 flex max-h-0 flex-col gap-3 overflow-hidden rounded-md bg-neutral-800/80 p-0 text-white transition-all duration-500 max-w-[200px] min-w-[80px] group-hover:visible group-hover:max-h-80 group-hover:p-3">
             <Link href="/officers" className="hover:text-[#DB4A4A]">Officers</Link>
             <Link href="/timeline/achievements" className="hover:text-[#DB4A4A]">Awards</Link>
           </div>

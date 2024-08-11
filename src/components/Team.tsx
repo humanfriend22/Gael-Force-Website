@@ -38,8 +38,8 @@ export function Team({
   return (
     // <Link className={twMerge(team({ intent, className }))} href={`/teams/${teamNumber}`}>
     <div className={twMerge(team({ intent, className }))} >
-      <div className="flex items-center flex-col w-full">
-        <div className="rounded-lg md:flex p-2 mb-4 hidden">
+      <div className="flex w-full flex-col items-center">
+        <div className="mb-4 hidden rounded-lg p-2 md:flex">
           <Image
             src={imageUrl}
             className="rounded-md"
@@ -48,7 +48,7 @@ export function Team({
             height={250}
           />
         </div>
-        <div className="rounded-lg flex p-2 mb-4 md:hidden">
+        <div className="mb-4 flex rounded-lg p-2 md:hidden">
           <Image
             src={imageUrl}
             className="rounded-md"
@@ -58,11 +58,11 @@ export function Team({
           />
         </div>
         <div className="flex flex-col">
-          <h1 className="sm:text-3xl text-xl font-bold text-center pb-3">{teamNumber}</h1>
-          <h2 className="sm:text-xl text-md font-bold text-center pb-3">{teamName}</h2>
-          {captainName && <p className="text-neutral-500 font-bold pb-1 sm:text-md text-sm text-center">Led By <span className="italic">{captainName}</span></p>}
+          <h1 className="pb-3 text-center text-xl font-bold sm:text-3xl">{teamNumber}</h1>
+          <h2 className="pb-3 text-center font-bold text-md sm:text-xl">{teamName}</h2>
+          {captainName && <p className="pb-1 text-center text-sm font-bold text-neutral-500 sm:text-md">Led By <span className="italic">{captainName}</span></p>}
           {memberNames && (
-            <p className="list-disc list-inside text-neutral-500 font-bold sm:text-md text-sm text-center mt-2">
+            <p className="mt-2 list-inside list-disc text-center text-sm font-bold text-neutral-500 sm:text-md">
               <span className="italic">{memberNames.map((name) => name).join(", ")}</span>
             </p>
           )}

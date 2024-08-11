@@ -40,7 +40,7 @@ export const events: EventType[] = [
     title: "Battle of The Bay Skills",
     date: "Feb 22, 2025",
     description: "Come to our late season skills event to get in your last minute skills scores in!",
-    image: "/atikshsize.jpg",
+    image: "/skillsonly.jpg",
     size: "onexy",
   },
 ];

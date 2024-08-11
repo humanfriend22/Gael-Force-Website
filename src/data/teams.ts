@@ -40,7 +40,7 @@ export const Teams: TeamType[] = [
     teamNumber: "5327V",
     teamName: "Gael Force V",
     captainName: "Aarav Kashyap",
-    memberNames: ["Ishaan", "Shikhar", "Rutvik", "Amato", "Kabir", "Raajika", "Eric", "Connor", "Sammy"],
+    memberNames: ["Ishaan", "Shikhar", "Rutvik", "Amato", "Kabir", "Raajika", "Eric", "Connor", "Sammy", "Samarth", "Tanisha"],
     imageUrl: "/VLogo.png",
   },
   {
