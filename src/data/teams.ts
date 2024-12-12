@@ -33,14 +33,14 @@ export const Teams: TeamType[] = [
     teamNumber: "5327R",
     teamName: "Gael Force Rams",
     captainName: "Kaushik Chandolu",
-    memberNames: ["Aditya", "Arjun", "Sohail", "Chittresh", "Jayden", "Rishi", "Saketh", "Abhiram", "Samarth"],
+    memberNames: ["Aditya", "Arjun", "Chittresh", "Jayden", "Rishi", "Saketh", "Abhiram", "Ram", "Ruhaan"],
     imageUrl: "/RLogo.jpg",
   },
   {
     teamNumber: "5327V",
     teamName: "Gael Force V",
     captainName: "Aarav Kashyap",
-    memberNames: ["Ishaan", "Shikhar", "Rutvik", "Amato", "Kabir", "Raajika", "Eric", "Connor", "Sammy", "Samarth", "Tanisha"],
+    memberNames: ["Ishaan", "Shikhar", "Rutvik", "Amato", "Kabir", "Raajika", "Eric", "Connor", "Sammy", "Samarth", "Tanisha", "Sohail"],
     imageUrl: "/VLogo.png",
   },
   {
